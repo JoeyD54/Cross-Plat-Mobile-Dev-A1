@@ -1,5 +1,7 @@
 body.a {
-    background-color: blanchedalmond;
+    background-color : azure;
 }
 
-
+p.error{
+    color : red;
+}
