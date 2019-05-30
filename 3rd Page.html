@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>Join the Poll</title>
+        <title>Contact Me!</title>
+        <link rel = "stylesheet" href="styles.css">
     </head>
-
-    <body>
+    <body class = "a">
         <div>
+            <header>
+                    <h1><b>Joey Domino's Bio</b></h1>
+                    <hr>
+            </header>
+            <nav>
+                <a href="Main Page.html" title = "Main Page">Page 1</a>
+                <a href="2nd Page.html" title = "Page 2">Page 2</a>
+            </nav>
             <h3>
-                Take this poll to let me know what you think!
+                Please include your name and email to be added to our contact list!
             </h3>
-            <!--Include an action-->
-            <form>
-                <input type = "radio" name = "rating" value = "Good" checked> Good <br>
-                <input type = "radio" name = "rating" value = "Average"> Average <br>
-                <input type = "radio" name = "rating" value = "Needs Improvement"> Needs Improvement <br>
-                <input type = "radio" name = "rating" value = "Big Oof"> Big Oof <br>
+            <form action="Main Page.html">
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname"><br>
                 <br>
-                <input type = "submit" value = "Submit">
+                Email Address:<br>
+                <input type="text" name="email" required="required" pattern="[A-Za-z0-9]{1,20}"><br><br>
+                <input type = "submit" value = "Submit" onclick="alert('Thanks you! Returning to main page.')">
             </form>
         </div> 
         <div>
                 <footer>
-                    <p>Created by: Joey Domino</p>
+                    <hr>
+                    <p>Created by: &#10645 Joey Domino &#10646</p>
                     <p>Contact info: <a href="mailto:gz2322@wayne.edu">
                         gz2322@wayne.edu</a>.</p>
                 </footer>
