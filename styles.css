@@ -2,7 +2,7 @@ body.a {
     background-color : azure;
 }
 
-p{
+.p{
     text-indent: 50px;
 }
 
@@ -49,6 +49,8 @@ tr:nth-child(even){
     background-color: #f1f1f1;
 }
 
-
+.button{
+    margin-left: 20px;
+}
 
 
